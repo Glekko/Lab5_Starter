@@ -30,6 +30,7 @@ function init() {
 
   // Function to speak the text using the selected voice
   function speakText() {
+    // If statement to make sure repeated button presses don't overwrite current speaker
     if (synth.speaking) return;
 
     const utterance = new SpeechSynthesisUtterance(textArea.value);
