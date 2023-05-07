@@ -3,7 +3,7 @@
 window.addEventListener('DOMContentLoaded', init);
 
 function init() {
-  // TO-DO
+  // TODO
   // Get the necessary elements from the DOM
   const hornSelect = document.getElementById('horn-select');
   const volumeSlider = document.getElementById('volume');
