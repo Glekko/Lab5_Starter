@@ -2,6 +2,6 @@
 Name: Kevin Wong
 Partner(s): Kyle Smith
 
-[Expose](expose.html)
+[Expose](https://glekko.github.io/Lab5_Starter/expose.html)
 
-[Explore](explore.html)
+[Explore](https://glekko.github.io/Lab5_Starter/explore.html)
