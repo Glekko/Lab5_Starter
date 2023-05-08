@@ -40,11 +40,14 @@ function init() {
 
   // Add an event listener to play the audio when the "Play Sound" button is clicked
   playButton.addEventListener('click', () => {
-    audioElement.play();
+    // Check for nothing selected
+    if(hornSelect.value != 'select'){
+      audioElement.play();
 
-    // Trigger the confetti effect if the "Party Horn" is selected
-    if (hornSelect.value === 'party-horn') {
-      jsConfetti.addConfetti();
+      // Trigger the confetti effect if the "Party Horn" is selected
+      if (hornSelect.value === 'party-horn') {
+        jsConfetti.addConfetti();
+      }
     }
   });
 }
